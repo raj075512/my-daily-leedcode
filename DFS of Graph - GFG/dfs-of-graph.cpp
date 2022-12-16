@@ -19,8 +19,7 @@ class Solution {
     // Function to return a list containing the DFS traversal of the graph.
     vector<int> dfsOfGraph(int v, vector<int> adj[]) {
         // Code here
-      int vis[v]={0};
-       
+    int vis[v]{0};
        vector<int>ans;
        int start{0};
        dfs(start,ans,adj,vis);
