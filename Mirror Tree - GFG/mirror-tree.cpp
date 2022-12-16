@@ -115,7 +115,7 @@ class Solution {
      if(!root) return ;
      mirror(root->left);
      mirror(root->right);
-    swap(root->left,root->right);
+    swap(root->right,root->left);
 
      
     }
